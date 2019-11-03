@@ -1,0 +1,18 @@
+{
+  "name": "hypest-light-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "A light syntax theme for Atom with a bright & lively palette",
+  "author": "Hector Simpson (https://hector.me)",
+  "keywords": [
+    "syntax",
+    "theme",
+    "mac",
+    "light"
+  ],
+  "repository": "https://github.com/dizzyup/hypest-light-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

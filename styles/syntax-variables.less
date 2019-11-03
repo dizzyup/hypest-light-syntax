@@ -1,0 +1,28 @@
+@import "colors";
+
+// General colors
+@syntax-text-color: @very-dark-gray;
+@syntax-cursor-color: @gray;
+@syntax-selection-color: fade(@blue, 20%);
+@syntax-background-color: @white;
+
+// Guide colors
+@syntax-wrap-guide-color: fade(@light-gray, 25%);
+@syntax-indent-guide-color: fade(@very-light-gray, 75%);
+@syntax-invisible-character-color: fade(@very-light-gray, 75%);
+
+// For find and replace markers
+@syntax-result-marker-color: @light-gray;
+@syntax-result-marker-color-selected: white;
+
+// Gutter colors
+@syntax-gutter-text-color: @gray;
+@syntax-gutter-text-color-selected: @dark-gray;
+@syntax-gutter-background-color: fade(@very-light-gray, 50%);
+@syntax-gutter-background-color-selected: fade(@light-gray, 10%);
+
+// For git diff info. i.e. in the gutter
+@syntax-color-renamed: @blue;
+@syntax-color-added: @green;
+@syntax-color-modified: @orange;
+@syntax-color-removed: @red;
